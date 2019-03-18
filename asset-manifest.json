@@ -1,0 +1,13 @@
+{
+  "main.css": "/simon-says-notepad/static/css/main.0e9f0936.chunk.css",
+  "main.js": "/simon-says-notepad/static/js/main.b7e92803.chunk.js",
+  "main.js.map": "/simon-says-notepad/static/js/main.b7e92803.chunk.js.map",
+  "runtime~main.js": "/simon-says-notepad/static/js/runtime~main.d62ab9e0.js",
+  "runtime~main.js.map": "/simon-says-notepad/static/js/runtime~main.d62ab9e0.js.map",
+  "static/js/2.b704a597.chunk.js": "/simon-says-notepad/static/js/2.b704a597.chunk.js",
+  "static/js/2.b704a597.chunk.js.map": "/simon-says-notepad/static/js/2.b704a597.chunk.js.map",
+  "index.html": "/simon-says-notepad/index.html",
+  "precache-manifest.e6fb87ae8f90033e45d3bdcefbe91e9d.js": "/simon-says-notepad/precache-manifest.e6fb87ae8f90033e45d3bdcefbe91e9d.js",
+  "service-worker.js": "/simon-says-notepad/service-worker.js",
+  "static/css/main.0e9f0936.chunk.css.map": "/simon-says-notepad/static/css/main.0e9f0936.chunk.css.map"
+}
