@@ -1,0 +1,10 @@
+.entry {
+  display: block;
+  height: 50px;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+}

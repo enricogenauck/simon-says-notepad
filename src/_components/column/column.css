@@ -1,0 +1,36 @@
+.column {
+  width: 32%;
+  height: 100%;
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.column-diamond-container {
+  width: 50%;
+  margin: 0 25%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+
+
+.column-entry-enter {
+  opacity: 0.01;
+}
+
+.column-entry-enter.column-entry-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.column-entry-leave {
+  opacity: 1;
+}
+
+.column-entry-leave.column-entry-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+

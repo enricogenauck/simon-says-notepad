@@ -1,0 +1,58 @@
+.diamond {
+  padding: 15%;
+}
+.diamond-button-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+
+  transform: rotate(45deg);
+
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+}
+.diamond-button-1,
+.diamond-button-2,
+.diamond-button-3,
+.diamond-button-4 {
+  position: absolute;
+  width: 50%;
+  height: 0;
+  padding: 25% 0;
+  margin: 0;
+
+  outline: none;
+  border: 0;
+}
+.diamond-button-1:hover,
+.diamond-button-2:hover,
+.diamond-button-3:hover,
+.diamond-button-4:hover {
+  cursor: pointer;
+}
+.diamond-button-1:active,
+.diamond-button-2:active,
+.diamond-button-3:active,
+.diamond-button-4:active {
+  box-shadow: inset 0px 0px 30px -10px rgba(0,0,0,0.75);
+}
+
+.diamond-button-1 {
+  top: 0;
+  left: 0;
+}
+.diamond-button-2 {
+  top: 0;
+  right: 0;
+}
+.diamond-button-3 {
+  bottom: 0;
+  right: 0;
+}
+.diamond-button-4 {
+  bottom: 0;
+  left: 0;
+}
