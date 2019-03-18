@@ -1,15 +1,19 @@
 {
   "name": "simon_says",
   "version": "0.1.0",
+  "homepage": "https://enricogenauck.github.io/simon-says-notepad",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
     "react-transition-group": "1.x"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
