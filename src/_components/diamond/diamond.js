@@ -1,15 +1,16 @@
 import React from 'react';
 
+import DiamondButton from './diamondButton';
 import './diamond.css';
 
 function Diamond({addEntry}) {
   return (
     <div className="diamond">
       <div className="diamond-button-wrapper">
-        <button className='diamond-button-1 blue'   onTouchStart={() => addEntry('blue')}></button>
-        <button className='diamond-button-2 yellow' onTouchStart={() => addEntry('yellow')}></button>
-        <button className='diamond-button-3 green'  onTouchStart={() => addEntry('green')}></button>
-        <button className='diamond-button-4 red'    onTouchStart={() => addEntry('red')}></button>
+        <DiamondButton color='blue'   position='1' addEntry={addEntry} />
+        <DiamondButton color='yellow' position='2' addEntry={addEntry} />
+        <DiamondButton color='green'  position='3' addEntry={addEntry} />
+        <DiamondButton color='red'    position='4' addEntry={addEntry} />
       </div>
     </div>
   );
