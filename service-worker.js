@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/simon-says-notepad/precache-manifest.2144bdc937cd79bfc34e254ae290730b.js"
+  "/simon-says-notepad/precache-manifest.25dd8ae127b249ef1e25b8f7fdae2b32.js"
 );
 
 workbox.clientsClaim();

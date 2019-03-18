@@ -1,13 +1,13 @@
 {
   "main.css": "/simon-says-notepad/static/css/main.a4e89084.chunk.css",
-  "main.js": "/simon-says-notepad/static/js/main.578e34ce.chunk.js",
-  "main.js.map": "/simon-says-notepad/static/js/main.578e34ce.chunk.js.map",
+  "main.js": "/simon-says-notepad/static/js/main.6a8a084e.chunk.js",
+  "main.js.map": "/simon-says-notepad/static/js/main.6a8a084e.chunk.js.map",
   "runtime~main.js": "/simon-says-notepad/static/js/runtime~main.d62ab9e0.js",
   "runtime~main.js.map": "/simon-says-notepad/static/js/runtime~main.d62ab9e0.js.map",
   "static/js/2.cc37ef95.chunk.js": "/simon-says-notepad/static/js/2.cc37ef95.chunk.js",
   "static/js/2.cc37ef95.chunk.js.map": "/simon-says-notepad/static/js/2.cc37ef95.chunk.js.map",
   "index.html": "/simon-says-notepad/index.html",
-  "precache-manifest.2144bdc937cd79bfc34e254ae290730b.js": "/simon-says-notepad/precache-manifest.2144bdc937cd79bfc34e254ae290730b.js",
+  "precache-manifest.25dd8ae127b249ef1e25b8f7fdae2b32.js": "/simon-says-notepad/precache-manifest.25dd8ae127b249ef1e25b8f7fdae2b32.js",
   "service-worker.js": "/simon-says-notepad/service-worker.js",
   "static/css/main.a4e89084.chunk.css.map": "/simon-says-notepad/static/css/main.a4e89084.chunk.css.map"
 }
