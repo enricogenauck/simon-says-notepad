@@ -6,8 +6,7 @@ const Entry = ({color, position, removeEntry}) => {
   return (
     <div
       className={color + ' entry'}
-      onMouseDown={() => removeEntry(position)}
-      onTouchStart={() => removeEntry(position)}>
+      onClick={() => removeEntry(position)}>
     </div>
   );
 }
