@@ -26,6 +26,9 @@ class Column extends Component {
 
     this.setState({entries: new_entries});
   }
+  purgeEntries() {
+    this.setState({entries: []});
+  }
 
   render() {
     const entries = this.state.entries.map((entry, i) => (
@@ -39,8 +42,8 @@ class Column extends Component {
       <div className="column">
         <CSSTransitionGroup
           transitionName="column-entry"
-          transitionEnterTimeout={500}
-          transitionLeaveTimeout={300}>
+          transitionEnterTimeout={200}
+          transitionLeaveTimeout={200}>
             { entries }
         </CSSTransitionGroup>
 
